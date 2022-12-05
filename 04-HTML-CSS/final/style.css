@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  /* border-box includes border and padding in widths and heights */
   box-sizing: border-box;
 }
 
@@ -24,7 +25,6 @@ h2 {
 p {
   margin-bottom: 20px;
 }
-
 .first {
   color: red;
 }
@@ -37,6 +37,7 @@ p {
   margin-top: 30px;
 }
 
+/* Apply to both input and button */
 input,
 button {
   padding: 10px;
@@ -47,10 +48,12 @@ a {
   background-color: yellowgreen;
 }
 
+/* Height scales proportionately */
 #course-image {
-  width: 300px;
+  width: 200;
 }
 
+/* Child selection */
 #your-name h2 {
   color: olivedrab;
 }
